@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Institute of Technology</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    .navbar-custom {
+      background: linear-gradient(90deg, #6a11cb, #4ebaf8); /* Purple to blue gradient */
+    }
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .course-btn {
+      border-radius: 20px;
+      margin: 5px;
+    }
+    .gallery-card img {
+      border-radius: 10px;
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background: #212529;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Global Institute of Technology</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+        <li class="nav-item"><a class="nav-link" href="#psos">PSOs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#recruiters">Recruiters</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Vision -->
+<section id="vision" class="py-5 text-center bg-light">
+  <div class="container">
+    <h2 class="section-title text-primary"><i class="bi bi-eye-fill"></i> Vision</h2>
+    <p class="lead">To impart quality technical education through research, innovation and teamwork to create professionally superior and ethically strong manpower.</p>
+  </div>
+</section>
+
+<!-- Mission -->
+<section id="mission" class="py-5 text-center">
+  <div class="container">
+    <h2 class="section-title text-dark"><i class="bi bi-bullseye"></i> Mission</h2>
+    <ul class="list-unstyled lead">
+      <li>✔ Provide ICT enabled teaching and learning environment.</li>
+      <li>✔ Enable students to become digital age learners and professionals.</li>
+      <li>✔ Provide knowledge and skills to succeed as engineers and entrepreneurs.</li>
+      <li>✔ Prepare graduates for lifelong learning and ethical challenges.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PSOs -->
+<section id="psos" class="py-5 text-center bg-light">
+  <div class="container">
+    <h2 class="section-title text-danger"><i class="bi bi-gear-fill"></i> Program Specific Outcomes (PSOs)</h2>
+    <p class="lead"><b>PSO1:</b> Demonstrate skills and competence in the analysis, design and development of computer-based systems addressing industrial and social issues.</p>
+    <p class="lead"><b>PSO2:</b> Tackle future technological challenges in areas like security, AR, IoT, etc.</p>
+  </div>
+</section>
+
+<!-- Courses Offered -->
+<section id="courses" class="py-5 text-center">
+  <div class="container">
+    <h2 class="section-title text-success"><i class="bi bi-book-fill"></i> Courses Offered</h2>
+    <div class="d-flex flex-wrap justify-content-center mt-3">
+      <button class="btn btn-outline-danger course-btn">B.Tech - CSE</button>
+      <button class="btn btn-outline-warning course-btn">B.Tech - AI/ML</button>
+      <button class="btn btn-outline-primary course-btn">M.Tech - Cyber Security</button>
+      <button class="btn btn-outline-info course-btn">PhD - Computer Engineering</button>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="section-title text-primary"><i class="bi bi-image-fill"></i> Image Gallery of Events</h2>
+    <div class="row g-4 mt-3">
+      <div class="col-md-3">
+        <div class="gallery-card shadow-sm p-2">
+          <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg" alt="Tech Seminar">
+          <p class="mt-2">Tech Seminar</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gallery-card shadow-sm p-2">
+          <img src="https://images.pexels.com/photos/1181351/pexels-photo-1181351.jpeg" alt="Hackathon">
+          <p class="mt-2">Coding Hackathon</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gallery-card shadow-sm p-2">
+          <img src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg" alt="Convocation">
+          <p class="mt-2">Convocation</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gallery-card shadow-sm p-2">
+          <img src="https://images.pexels.com/photos/386144/pexels-photo-386144.jpeg" alt="Workshop">
+          <p class="mt-2">Workshop</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Top Recruiters -->
+<section id="recruiters" class="py-5 text-center">
+  <div class="container">
+    <h2 class="section-title text-dark"><i class="bi bi-briefcase-fill"></i> Top Recruiters</h2>
+    <div class="row g-4 mt-3">
+      <div class="col-md-2"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Google_Logo.svg" class="img-fluid p-3 bg-white rounded shadow" alt="Google"></div>
+      <div class="col-md-2"><img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Accenture_logo.svg" class="img-fluid p-3 bg-white rounded shadow" alt="Accenture"></div>
+      <div class="col-md-2"><img src="https://upload.wikimedia.org/wikipedia/commons/4/46/TCS_logo.svg" class="img-fluid p-3 bg-white rounded shadow" alt="TCS"></div>
+      <div class="col-md-2"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Infosys_logo.svg" class="img-fluid p-3 bg-white rounded shadow" alt="Infosys"></div>
+      <div class="col-md-2"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Wipro_Logo.svg" class="img-fluid p-3 bg-white rounded shadow" alt="Wipro"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white text-center py-3">
+  <p>© 2025 Global Institute of Technology | All Rights Reserved</p>
+  <p>Email: info@git.edu | Phone: +91-9876543210</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
